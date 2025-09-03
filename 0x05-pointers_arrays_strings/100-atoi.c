@@ -27,7 +27,7 @@ int _atoi(char *s)
 		else if (s[i] >= '0' && s[i] <= '9')
 		{
 			found_digit = 1;
-			result = result * 10 + (s[i] - '0');
+			result = result * 10 - (s[i] - '0');
 		}
 		else if (found_digit)
 		{
@@ -35,5 +35,8 @@ int _atoi(char *s)
 		}
 		i++;
 	}
-	return (sign * result);
+	if (sign > 0)
+		return (-result);
+	else
+		return (result);
 }
