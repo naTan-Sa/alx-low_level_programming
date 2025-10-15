@@ -1,0 +1,12 @@
+# Ignore C source and object files
+*.c
+*.o
+
+# Ignore temporary files
+*~
+*.swp
+*.swo
+
+# Ignore executables
+quote
+a.out
