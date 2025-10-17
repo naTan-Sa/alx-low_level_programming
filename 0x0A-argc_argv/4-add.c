@@ -11,8 +11,8 @@
  */
 int main(int argc, char *argv[])
 {
-	int num1, num2, sum = 0;
-	
+	int i, j,sum = 0;
+
 	if (argc == 1)
 	{
 		printf("0\n");
