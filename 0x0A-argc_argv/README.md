@@ -7,9 +7,9 @@ You will learn how to receive and process arguments passed to a program using `a
 Concepts
 Command-line arguments (argc, argv)
 Argument parsing and validation
-String to integer conversion (atoi, strtol)
-Input/output with printf and character output (_putchar)
-Using (void) and __attribute__((unused)) for unused parameters
+String to integer conversion (atoi)
+Input/output with printf and _putchar
+Using (void) or __attribute__((unused)) for unused parameters
 Error handling and exit codes
 
 Learning Objectives
@@ -40,3 +40,4 @@ Tasks
 3-mul.c – Multiply two numbers given as arguments; print result or print "Error" and return 1 if wrong arg count
 4-add.c – Add positive numbers passed as arguments; print sum, print 0 if none, print "Error" and return 1 on non-digit input
 100-change.c – Minimal Number of Coins for Change (advanced): given cents, print minimum number of coins (25,10,5,2,1); print "Error" if arg count != 1; print 0 if negative
+
