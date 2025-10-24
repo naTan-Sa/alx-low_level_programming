@@ -2,13 +2,13 @@
 #include <stdlib.h>
 
 /**
- * string_nconcat - 
+ * string_nconcat - concatenates two strings
  * @s1: first string
  * @s2: seconf string
  * @n: number of bytes from s2 to cooncatenate
  *
  * Return: pointer to newly allocated string,
- * 	or NULL if memor allocation fails
+ * or NULL if memor allocation fails
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
