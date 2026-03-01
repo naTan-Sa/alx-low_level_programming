@@ -1,5 +1,5 @@
 section .data
-    msg db "Hello, ALX", 10, 0       ; string + newline + null terminator
+    msg db "Hello, Holberton", 10, 0       ; string + newline + null terminator
 
 section .text
     extern printf                     ; tell assembler that printf is in another file
