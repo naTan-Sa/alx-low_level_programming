@@ -83,6 +83,7 @@ To test the island_perimeter implementation with a test script (e.g., 5-main.py)
 ```bash
 chmod +x 5-main.py
 ./5-main.py
+```bash
 Example Output:
 
 Plaintext
